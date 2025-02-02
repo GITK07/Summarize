@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Summary Result</h1>
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">{{ title }}</h5>
+                <p class="card-text"><strong>Authors:</strong> {{ authors }}</p>
+                <p class="card-text"><strong>Publication Date:</strong> {{ publish_date }}</p>
+                <h5>Summary:</h5>
+                <p>{{ summary }}</p>
+                <a href="/" class="btn btn-primary">Summarize Another</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
